@@ -4,7 +4,6 @@ SELECT
     ProductID,  -- Selects the unique identifier for each product
     ProductName,  -- Selects the name of each product
     Price,  -- Selects the price of each product
-	-- Category, -- Selects the product category for each product
 
     CASE -- Categorizes the products into price categories: Low, Medium, or High
         WHEN Price < 50 THEN 'Low'  -- If the price is less than 50, categorize as 'Low'
