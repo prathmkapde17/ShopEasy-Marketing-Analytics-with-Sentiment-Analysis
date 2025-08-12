@@ -34,9 +34,7 @@ This project focuses on extracting, enriching, and analyzing customer and engage
 
 ## 📊 Power BI Dashboard  
 
-🚀 **View the Interactive Dashboard Here** → [Power BI Dashboard Link](#)  
-*(Replace `#` with your published Power BI link)*  
-
+🚀 **View the Interactive Dashboard Here** → [[Power BI Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiMzQwMzU4YzAtNjNkOS00OWFmLTlmZGQtNDI1Yzk3MzI1ODJkIiwidCI6ImE2ZWY1YTM2LWUyYmYtNDI1Ni05ODAyLTA4MTA4ZWIwOTEzYSJ9)](#)  
 ---
 
 ## 🔍 Key Insights from Analysis  
@@ -62,12 +60,11 @@ This project focuses on extracting, enriching, and analyzing customer and engage
 
 ## 📈 Project Workflow  
 
-graph TD;
-A[Data Source: SQL Server] --> B[Data Extraction with SQL]
-B --> C[Python: Data Cleaning & Sentiment Analysis]
-C --> D[Load Clean Data into Power BI]
-D --> E[Dashboard Creation & DAX Measures]
-E --> F[Business Insights & Storytelling]
+1.A[Data Source: SQL Server] --> B[Data Extraction with SQL]
+2.B --> C[Python: Data Cleaning & Sentiment Analysis]
+3.C --> D[Load Clean Data into Power BI]
+4.D --> E[Dashboard Creation & DAX Measures]
+5.E --> F[Business Insights & Storytelling]
 
 
 ---
